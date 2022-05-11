@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<title> Currículo</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="cv-contato.css">
+	</head>
+	<body>
+		<header>
+			<div class ="caixa">
+				<h1><img src="programacao.jpg" alt="uma logo fácil de uma cabeça com sinais de maior e menor dentro"></h1>
+				<nav>
+					<ul>
+						<li><a href="cv.html">Home</a></li>
+						<li><a href="https://wa.me/message/VUYAHFNJYJNAN1">Whatsapp</a></li>
+						<li><a href="cv-contato.html">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main>
+			<form>
+				<label for id="nome" class="etiqueta">Nome</label>
+				<input type="text" id="nome" class="padrao" required placeholder="Fulano Silva">
+
+				<label for id="email">E-mail</label>
+				<input type="email" id="email" class="padrao" required placeholder="seuemail@dominio.com">
+
+				<label for id="telefone">Telefone</label>
+				<input type="tel" id="telefone" class="padrao" required placeholder="+XX (XX) XXXX-XXXX">
+
+				<fieldset>
+					<legend> Como prefere o nosso contato?</legend>
+					<label for="radio-whatsapp"><input type="radio" id="radio-whatsapp" value="whatsapp" name="one" checked>Whatsapp</label>
+					
+					<label for="radio-email"><input type="radio" id="radio-email" value="email" name="one">E-mail</label>
+					
+					<label for ="radio-telefone"><input type="radio" id="radio-telefone" value="telefone" name="one">Telefone</label>
+					
+				</fieldset>
+
+				<label for="mensagem">Mensagem</label>
+				<textarea cols="70" rows="10" id="mensagem" class="padrao" required placeholder="Matheus, gostaria de te dar R$10.000,00"></textarea>
+
+				<label class="checkbox"><input type="checkbox" checked>Gostaria que eu entrasse em contato hoje?</label>
+				
+				<input type="submit" value="Enviar Contato" class="enviar">
+			</form>
+		</main>
+		<footer>
+			<img class="moeda" src= "programacao.jpg" alt="última imagem de uma logo fácil de uma cabeça com sinais de maior e menor dentro">
+			<p class="copyright">&copy; Copyright Currículo do Matheus</p>
+		</footer>
+	</body>
+</html>
